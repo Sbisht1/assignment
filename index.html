@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table class="main-table">
+        <tr class="hover-c">
+            <td class="form-cls ">
+                <form  autocomplete="on"  onsubmit="onFormSubmit();">
+                    <div class="paddingall">
+                        <label for="Email">Email Address</label>
+                        <input type="Email" name="Email" id="Email" class="paddingall" required>
+                    </div>
+                    <div class="paddingall">
+                        <label for="username">User Name</label>
+                        <input type="text" name="username" id="username" class="paddingall" required>
+                    </div>
+                    <div class="paddingall">
+                        <label for="Password">Password</label>
+                        <input type="password" name="Password" id="password" class="paddingall" required>
+                    </div>
+                    <div class="form-action_button paddingall">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+            <td  class="data">
+                <table class="list" id="storelist">
+                    <thead>
+                        <tr>
+                            <th>Email</th>
+                            <th>Users Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
